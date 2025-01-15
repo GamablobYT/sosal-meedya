@@ -1,46 +1,34 @@
 import React, { useState } from "react";
 import Dashboard from "./pages/Dashboard";
+import friendsData from "./data/friends";
 import "./styles/dashboard.css";
 
 const App = () => {
   // Mock data for the user
   const user = {
-    name: "user",
+    name: "lund",
     profilePhoto: "",
-    bio: "Loves coding and coffee!",
+    bio: "isko apna katwana pasand hai!",
   };
 
   // Mock data for friends
-  const [friends, setFriends] = useState([
-    {
-      id: 1,
-      name: "Saheli",
-      mainRating: 54,
-      image: "",
-      characteristics: [
-        { name: "Funniness", rating: 50 },
-        { name: "Comfort", rating: 43 },
-        { name: "Trust", rating: 69 },
-      ],
-    },
-    {
-      id: 2,
-      name: "Woman",
-      mainRating: 31,
-      image: "",
-      characteristics: [
-        { name: "Funniness", rating: 71 },
-        { name: "Comfort", rating: 12 },
-        { name: "Trust", rating: 10 },
-      ],
-    },
-  ]);
+  const [friends, setFriends] = useState(friendsData);
 
   // Mock data for posts
   const posts = [
-    { author: "Saheli", content: "bhook lagi hai!" },
-    { author: "J", content: "yolo!" },
-    { author: "randy orton", content: "Check out my latest photo!" },
+    {
+      author: "Saheli",
+      content: "bhook lagi hai!",
+      image: "https://preview.redd.it/whos-the-happy-cat-v0-7ywz19uui3de1.jpg?width=720&format=pjpg&auto=webp&s=7f6a77e54bcec217d881f324769692052e3c61a1",
+    },
+    {
+      author: "J", 
+      content: "ma chuda gandu!" 
+    },
+    { 
+      author: "rand(i) orton", 
+      content: "Check out my latest photo!" 
+    },
   ];
 
   const handleSaveFriend = (updatedFriend) => {
