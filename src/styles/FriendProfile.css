@@ -63,16 +63,16 @@
   .char-btn {
     background-color: #ffffff2f;
     color: #fff;
-    border: none;
+    border: transparent solid 1px;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: border-color 0.25s ease;
     margin: 0 5px;
   }
   
   .char-btn:hover {
-    background-color: #ffffff2c;
+    border-color: #646cff;
   }
   
   .char-slider {
@@ -109,21 +109,34 @@
     color: #555;
   }
 
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+  }
+
   .save-btn {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #ffffff2f;
     color: #fff;
-    border: none;
+    border: transparent solid 1px;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: border-color 0.25s ease;
     width: 100%; /* Full width button */
     text-align: center;
   }
   
   .save-btn:hover {
-    background-color: #ffffff16;
+    border-color: #646cff;
+  }
+
+  .edit-btn {
+    width: 20%;
+    justify-content: flex-end;
   }

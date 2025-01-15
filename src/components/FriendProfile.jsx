@@ -43,6 +43,10 @@ const FriendProfile = ({ friend, onSave }) => {
     }
   };
 
+  const handleEdit = () => {
+    console.log("Edit button clicked for:", friend.name); // Placeholder for edit logic
+  };
+
   return (
     <div className="friend-profile">
       <img
@@ -74,9 +78,14 @@ const FriendProfile = ({ friend, onSave }) => {
           </li>
         ))}
       </ul>
-      <button className="save-btn" onClick={handleSave}>
-        Save
-      </button>
+      <div className="button-container">
+        <button className="edit-btn" onClick={handleEdit}>
+          Edit
+        </button>
+        <button className="save-btn" onClick={handleSave}>
+          Save
+        </button>
+      </div>
     </div>
   );
 };
