@@ -1,8 +1,20 @@
-# React + Vite
+# Sosal meedya app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A social platform that enables users to rate their friends based on different personality traits and characteristics. 
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This React-based application allows users to:
+- Connect with friends
+- Rate friends on various characteristics/traits
+- View ratings received from others
+- Track rating history and changes over time
+
+## Key Features (Planned)
+
+- Secure user authentication
+- Friend management system
+- Customizable rating categories
+- Interactive rating interface
+- Profile management
+- Rating analytics and insights
