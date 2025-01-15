@@ -6,6 +6,7 @@
     background: black;
     padding: 20px;
     border-right: #333 solid 1px;
+    height: calc(100vh - 104px);
     overflow-y: auto;
   }
   

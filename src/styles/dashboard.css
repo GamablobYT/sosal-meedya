@@ -18,7 +18,7 @@ body {
   grid-template-columns: 0.7fr 3fr 1fr; /* Maintain your grid layout */
   gap: 0px;
   padding: 20px;
-  padding-top: 0;
+  padding-top: 104px;
   padding-right: 0;
   height: calc(100vh - 60px); /* Allow full-height content */
   overflow-y: hidden; /* Hide overflow */

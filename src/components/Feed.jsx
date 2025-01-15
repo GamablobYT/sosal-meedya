@@ -8,6 +8,11 @@ const Feed = ({ posts }) => {
         <div key={index} className="post">
           <h3>{post.author}</h3>
           <p>{post.content}</p>
+          {post.image && (
+            <div className="post-image-container">
+              <img src={post.image} alt="Post attachment" className="post-image" />
+            </div>
+          )}
         </div>
       ))}
     </div>

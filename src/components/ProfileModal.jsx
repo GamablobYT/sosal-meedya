@@ -5,9 +5,9 @@ const ProfileModal = ({ user, onClose }) => {
   return (
     <div className="profile-modal">
       <button onClick={onClose}>Close</button>
-      <h2>{user.name}</h2>
       <img
-       src={user.profilePhoto} alt="Profile" />
+       src={user.profilePhoto ? user.profilePhoto : "/imgs/default-profile-icon.jpg"} alt="Profile" className="big-profile-photo" />
+      <h2>{user.name}</h2>
       <p>{user.bio}</p>
     </div>
   );
