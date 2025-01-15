@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Sticky Bar */
+.sticky-bar {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    padding-left: 2.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-bottom: #333333 solid 1px;
+  }
+  
+  .sticky-bar h1 {
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 5rem;
+    padding-left: 1rem;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .profile-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-section span {
+    font-weight: bold;
+  }
+
+  .profile-section:hover {
+    background-color: #333; /* Subtle hover effect */
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between buttons */
+  }
+  
+  .home-icon,
+  .plus-icon {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-icon:hover,
+  .plus-icon:hover {
+    background-color: #ffffff2c;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }

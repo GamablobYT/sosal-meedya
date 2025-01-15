@@ -1,0 +1,129 @@
+/* Friend Profile */
+.friend-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .friend-profile h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+
+  }
+  
+  .friend-profile p {
+    font-size: 1rem;
+    margin: 10px 0;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+  
+  .friend-profile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .friend-profile li {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+  }
+
+  .friend-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+
+  .characteristic {
+    display: grid;
+    grid-template-columns: 3fr 1fr 5fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .char-name {
+    flex: 1;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .char-btn {
+    background-color: #ffffff2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  .char-btn:hover {
+    background-color: #ffffff2c;
+  }
+  
+  .char-slider {
+    flex: 3;
+    position: relative;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, #2c2c2c 0%, #2c2c2c 100%);
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 0 0px;
+  }
+  .char-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    cursor: pointer;
+    transform: translateY(10px) rotate(45deg);
+    transition: border-color 0.1s ease, transform 0.1s ease;
+  }
+  
+  .char-slider::-webkit-slider-thumb:hover {
+    border-color: #ffffff; /* Enlarge on hover */
+  }
+  
+  .char-value {
+    font-size: 0.9rem;
+    margin-left: 5px;
+    color: #555;
+  }
+
+  .save-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width button */
+    text-align: center;
+  }
+  
+  .save-btn:hover {
+    background-color: #ffffff16;
+  }

@@ -1,0 +1,50 @@
+.friend-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push content to fill vertical space */
+    height: 100vh; /* Stretch the sidebar vertically */
+    background: black;
+    padding: 20px 0px;
+    border-radius: 8px;
+    border-right: #333 solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .friend-panel ul {
+    flex-grow: 1; /* Allow the list to grow to fill space */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto; /* Add a scrollbar when the list is too long */
+  }
+  
+  .friend-panel li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: transparent;
+  }
+  
+  .friend-panel li:hover {
+    background-color: #141414;
+  }
+  
+  
+  .friend-panel h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0 px;
+  }
+
+  .friend-panel .friend-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 1rem;
+    object-fit: cover; /* Ensure the image scales properly */
+  }

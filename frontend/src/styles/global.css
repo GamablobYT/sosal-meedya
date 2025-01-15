@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #242424;
+    color: #ffffff;
+  }
+  
+  div, h1, h2, h3, p, span, li, a, button {
+    color: inherit; /* Inherit white text color for all text elements */
+  }
+
+  div {
+    box-sizing: border-box;
+  }
+  
