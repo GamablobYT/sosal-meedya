@@ -1,4 +1,9 @@
 .friend-panel {
+    position: fixed;
+    left: 0;
+    top: 10%;
+    margin-left: 2%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Push content to fill vertical space */

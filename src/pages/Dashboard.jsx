@@ -9,7 +9,7 @@ import UploadPost from "../components/UploadPost";
 const Dashboard = ({ user, friends, posts, onSaveFriend }) => {
   const [selectedFriend, setSelectedFriend] = useState(null);
   const [showProfile, setShowProfile] = useState(false);
-  const [friendsList, setFriendsList] = useState(friends);
+  // const [friendsList, setFriendsList] = useState(friends);
   const [currentView, setCurrentView] = useState("feed"); // "feed" or "uploadPost"
 
   const handleSelectFriend = (friend) => {

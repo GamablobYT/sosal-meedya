@@ -1,5 +1,9 @@
 /* Friend Profile */
 .friend-profile {
+    position: fixed;
+    left: 79%;
+    width: 18%;
+    top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
