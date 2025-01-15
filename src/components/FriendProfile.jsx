@@ -46,7 +46,7 @@ const FriendProfile = ({ friend, onSave }) => {
   return (
     <div className="friend-profile">
       <img
-        src="/imgs/default-profile-icon.jpg"
+        src="imgs/default-profile-icon.jpg"
         alt={friend.name}
         className="friend-image"
       />

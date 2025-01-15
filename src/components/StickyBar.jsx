@@ -13,7 +13,7 @@ const StickyBar = ({ user, onProfileClick, onShowUploadPost, onShowFeed }) => {
           +
         </button>
         <div className="profile-section" onClick={onProfileClick}>
-          <img src={user.profilePhoto ? user.profilePhoto : "/imgs/default-profile-icon.jpg"} alt="Profile" className="profile-photo" />
+          <img src={user.profilePhoto ? user.profilePhoto : "imgs/default-profile-icon.jpg"} alt="Profile" className="profile-photo" />
           <span>{user.name}</span>
         </div>
       </div>
